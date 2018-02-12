@@ -16,3 +16,13 @@
 
 	![alt text](../images/playerNames2.png "")
 
+1.	Push your code to **your private** repository on GitHub.  Type these commands into your *Git Bash* client:
+
+	```
+	$ git status
+	$ git add .
+	$ git commit -m "Exercise 2 - DONE|PARTIAL|HELP"
+	$ git push origin master
+	$ git status
+
+	```
