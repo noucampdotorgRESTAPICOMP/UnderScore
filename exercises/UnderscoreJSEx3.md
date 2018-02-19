@@ -33,67 +33,18 @@ $ git status
 
 ## Part 2 - ``findWhere()``
 
-1.	Save the program ``playerWhere.html`` below into the ``underscore`` folder:
+1.	Examine and open the file [http://localhost/UnderScore/playerWhere.html](http://localhost/UnderScore/playerFind.html) and ``playerWhere.js``.
 
-	```html
+1.	Modify the code so that a user can search for the first player by *team* and *position* e.g. ``LIV`` and ``Forward`` should return *Firmino*.
 
-	<!doctype html>
-	<html>
-	<head>
-	    <script type="text/javascript" src="underscore.js"></script>
-	    <script type="text/javascript" src="players.js"></script>
-	    <script type="text/javascript" src="playerWhere.js"></script> 
-	</head>
-	<body>
 
-	<h1>Players</h1>
-
-	<table>
-		<tr>
-		<td>Team:</td><td><input id="team" type="text"></td>
-		</tr>
-		<tr>
-		<td>Position:</td><td><input id="position" type="text"></td>
-		</tr>
-		<tr>
-		<td></td><td><button id="findButton">Find</button></td>
-		</tr>
-	</table>
-
-	<hr>
-
-	<div id="data"></div>
-
-	</body>
-	</html>
+1.	Push your code to **your private** repository on GitHub.  Type these commands into your *Git Bash* client:
 
 	```
-
-1.	Save the program ``playerWhere.js`` below into the ``underscore`` folder:
-
-	```html
-	window.onload=function()
-	{
-		document.getElementById('findButton').onclick=function()
-		{
-			// add code here to react to button click
-			
-			var details = new Object();
-			details.Team = ...
-			details.Position = ...
-
-			// use findWhere() function here
-
-		}
-	}
+	$ git status
+	$ git add .
+	$ git commit -m "Exercise 3 - DONE|PARTIAL|HELP"
+	$ git push origin master
+	$ git status
 
 	```
-
-1.	When viewing ``playerWhere.html`` it should have 2 text boxes and a *find* button:
-
-	![img](https://github.com/barcaxi/WD12017/blob/master/images/playerWhere.png)
-
-
-1.	Modify the code so that as shown in the image a user can search for the first player by *team* and *position*.
-
-
