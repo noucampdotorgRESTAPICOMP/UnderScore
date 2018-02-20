@@ -19,7 +19,7 @@ $ git status
 
 1.	When the dropdown box is selected add code to filter by position and display all the player names on separate lines.
 
-	![img](https://github.com/barcaxi/noucampdotorgRESTAPICOMP/blob/master/images/playerFilter.png)
+	![img](https://github.com/noucampdotorgRESTAPICOMP/UnderScore/blob/master/images/playerFilter.png?raw=true)
 
 
 
@@ -29,5 +29,5 @@ $ git status
 
 1.	When either of the dropdown boxes are selected filter by team **AND** position and display all the player names on separate lines.
 
-	![img](https://github.com/barcaxi/noucampdotorgRESTAPICOMP/blob/master/images/playerFilter2.png)
+	![img](https://github.com/noucampdotorgRESTAPICOMP/UnderScore/blob/master/images/playerFilter2.png?raw=true)
 
