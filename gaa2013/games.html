@@ -1,0 +1,26 @@
+<html>
+<head>
+	<!-- Add Underscore and jQuery libraries here -->
+	<script src="games.js" type="text/javascript"></script>
+</head>
+
+<body>
+<h1>GAA Games 2013</h1>
+<hr>
+Select Gameweek:
+<select id='gameweek'>
+	<option value='All'>All</option>
+</select>
+<br>
+<span id="categories">Select Category<input class='cat' type='radio' id="cat" name='category' value='All' checked>All</input></span>
+<br>
+Sort by:
+<select id='sortby'>
+  <option value='gameweek'>Gameweek</option>
+  <option value='score'>Total Score (Highest to Lowest) </option>
+</select>
+<hr>
+
+<table border=1><tbody id="table"></tbody></table>
+</body>
+</html>
